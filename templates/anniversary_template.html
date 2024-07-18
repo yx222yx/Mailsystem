@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Work Anniversary</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            display: inline-block;
+            text-align: center;
+        }
+        .header {
+            text-align: center;
+            padding: 20px 0;
+        }
+        .content {
+            line-height: 1.6;
+            text-align: center;
+        }
+        .signature {
+            margin-top: 20px;
+            text-align: center;
+        }
+        .company {
+            text-align: center;
+        }
+        .footer {
+            margin-top: 20px;
+            text-align: center;
+            color: #777;
+        }
+        .image {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .image img {
+            max-width: 100%; /* 设置图片的最大宽度 */
+            height: auto; /* 自动调整高度以保持比例 */
+            max-height: 300px; /* 可选：设置图片的最大高度 */
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <h1>Happy Work Anniversary, {{.Name}}!</h1>
+    </div>
+    <div class="content">
+        <p>亲爱的{{.Name}}，</p>
+        <p>今天是您入职易迪希{{.Years}}周年纪念日。</p>
+        <p>感谢您的闪耀与独特，在从容、笃实中见证了成长的力量；</p>
+        <p>感谢您在临床服务中所体现的专业价值，为易迪希的国际化进程贡献力量；</p>
+        <p>在未来的岁月里，期待您依然朝气蓬勃，以灼灼之姿伴随我们一同成长。</p>
+        <p>感谢有您，{{.Years}}年的时光转瞬而逝，前路的精彩更值得我们期待！</p>
+        <br>
+        <p>Dear {{.Name}},</p>
+        <p>Today marks your {{.Years}} Anniversary at Clinflash. Congratulations!</p>
+        <p>Thank you for your outstanding work and distinctiveness as we witness the growth together.</p>
+        <p>Thank you for your professional inputs invested in the clinical services and your contribution to the nationalization process at Clinflash.</p>
+        <p>We hope you would continue to grow with us in the future at the very best.</p>
+        <p>{{.Years}} years have passed unknowingly, and the future is much of worth for further exploring and expecting!</p>
+        <p>Best wishes,</p>
+        <div class="signature">易迪希人力资源部<br>HR Dept. of Clinflash</div>
+    </div>
+    <div class="image">
+        <img src="https://s21.ax1x.com/2024/07/17/pkoCaW9.png">
+    </div>
+    <div class="footer">
+        <p>© 2023 易迪希 | Clinflash</p>
+    </div>
+</div>
+</body>
+</html>

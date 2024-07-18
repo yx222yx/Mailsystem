@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            display: inline-block;
+            text-align: center;
+        }
+        .header {
+            text-align: center;
+            padding: 20px 0;
+        }
+        .content {
+            line-height: 1.6;
+            text-align: center;
+        }
+        .signature {
+            margin-top: 20px;
+            text-align: center;
+        }
+        .company {
+            text-align: center;
+        }
+        .footer {
+            margin-top: 20px;
+            text-align: center;
+            color: #777;
+        }
+        .image {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .image img {
+            max-width: 100%; /* 设置图片的最大宽度 */
+            height: auto; /* 自动调整高度以保持比例 */
+            max-height: 300px; /* 可选：设置图片的最大高度 */
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <h1>Happy Birthday, {{.Name}}!</h1>
+    </div>
+    <div class="content">
+        <p>亲爱的{{.Name}}:</p>
+        <p>今天是您的生日，感谢相遇。</p>
+        <p>一份祝福一份真诚，在这个特别的日子里，易迪希携全体同仁给您送上生日最真挚的祝福，祝您生日快乐！愿未来的日子继续携手同行，感恩有您。</p>
+        <div class="signature">易迪希</div>
+        <br>
+        <p>Dear {{.Name}}:</p>
+        <p>Happy birthday! We're delighted you're celebrating with us.</p>
+        <p>On this special day, Clinflash and your colleagues extend heartfelt birthday wishes to you.</p>
+        <p>May your future be filled with shared successes and continued camaraderie. Thank you for being a part of our journey.</p>
+        <div class="company">Clinflash</div>
+    </div>
+    <div class="image">
+        <img src="https://s21.ax1x.com/2024/07/17/pkoCUJJ.jpg">
+    </div>
+    <div class="footer">
+        <p>© 2023 易迪希 | Clinflash</p>
+    </div>
+</div>
+</body>
+</html>

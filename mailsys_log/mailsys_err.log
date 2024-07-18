@@ -1,0 +1,6 @@
+ERROR: 2024/07/18 13:15:00 errsend.go:44: Failed to open log file: open mailsys_log/mailsys_err.log: The system cannot find the file specified.
+ERROR: 2024/07/18 13:15:00 errsend.go:44: Failed to open unsent log file: open mailsys_log/mailsys_unsent.log: The system cannot find the file specified.
+ERROR: 2024/07/18 13:23:00 errsend.go:44: Row 5 is invalid, skipping: [B 实习生 2023-07-18 2003-07-18]
+ERROR: 2024/07/18 13:24:02 errsend.go:44: Failed to open unsent log file: open mailsys_log/mailsys_unsent.log: The system cannot find the file specified.
+ERROR: 2024/07/18 13:31:00 errsend.go:44: Row 5 is invalid, skipping: [B 实习生 2023-07-18 2003-07-18]
+ERROR: 2024/07/18 13:43:00 errsend.go:44: Row 5 is invalid, skipping: [B 实习生 2023-07-18 2003-07-18]
