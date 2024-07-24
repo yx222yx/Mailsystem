@@ -1,0 +1,9 @@
+smtp:
+  host: "smtpdm.aliyun.com"
+  port: 465
+  username: "noreply@email.jxedc.com"
+  password: "ABcd123456"
+  name: "Clinflash 易迪希"
+
+admin:
+  email: "2261576876@qq.com"
